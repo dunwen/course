@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/color_class_head" >
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.1"
+                android:layout_marginLeft="10dp"
+                android:layout_height="fill_parent"
+                
+                android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/page_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/courseTable"
+            android:textColor="@color/black"
+            android:layout_weight="0.9"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <!-- date -->
+
+    <LinearLayout
+        android:id="@+id/ll_choosecourse"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/color_class_time"
+        android:clickable="true"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/time_team"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/date"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/time_which"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_xiangxia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iconfont_xiangxia" />
+
+        <TextView
+            android:id="@+id/time_weekofday"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"  />
+
+    </LinearLayout>
+
+</LinearLayout>

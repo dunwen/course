@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Temp1111</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="courseTable">课程表</string>
+    <string name="date">2014&#8211;2015学年 秋季学期 </string>
+    <string name="empty"></string>
+    <string name="mon">周一</string>
+    <string name="tues">周二</string>
+    <string name="wen">周三</string>
+    <string name="thurs">周四</string>
+    <string name="fri">周五</string>
+    <string name="satur">周六</string>
+    <string name="sun">周日</string>
+    <string name="sec1">1</string>
+    <string name="sec2">2</string>
+    <string name="sec3">3</string>
+    <string name="sec4">4</string>
+    <string name="sec5">5</string>
+    <string name="sec6">6</string>
+    <string name="sec7">7</string>
+    <string name="sec8">8</string>
+    <string name="sec9">9</string>
+    <string name="sec10">10</string>
+    <string name="sec11">11</string>
+    <string name="title_activity_course_info">Course_info</string>
+
+</resources>

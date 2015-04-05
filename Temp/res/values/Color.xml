@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#dedede</color>
+    <color name="head_background">#dbfaa0</color>
+    <color name="color_class_head">#d8d8d8</color>
+    <color name="color_class_time">#f57232</color>
+    <color name="color_class_weekday">#dfdddd</color>
+    <color name="color_class_section">#e8e7e7</color>
+    <color name="color_class_course">#ededed</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+</resources>
